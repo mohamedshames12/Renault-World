@@ -949,6 +949,29 @@ span.swiper-pagination-bullet-active{
     margin-left: 10px;
 }
 
+
+.electricity .ele-box {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    align-items: flex-end;
+    align-content: space-around;
+
+}
+
+.electricity .ele-box .images-mech img {
+    height: 300px;
+    gap: 2rem;
+    margin-right: 20px;
+}
+
+.electricity .ele-box h4 {
+    margin-bottom: 5px;
+}
+
 /*  for mobile */
 @media (max-width:768px) {
     .container{
@@ -956,7 +979,7 @@ span.swiper-pagination-bullet-active{
     }
     .navber{
         position: absolute;
-        top: 15%; left: 0; right: 0;
+        top: 8%; left: 0; right: 0;
         text-align: center;
         background-color: #fff;
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
@@ -1063,15 +1086,17 @@ span.swiper-pagination-bullet-active{
         grid-template-columns: repeat(auto-fit, 350px);
     }
 
-    .container-onsearch .box{
-        display: block;
 
+
+    .container-onsearch .box{
+        display: flex;
+       text-align: center;
+       align-items: center;
+     
     }
 
     .container-onsearch .box h1{
-        text-align: center;
         font-size: 1.3rem;
-        margin-bottom: 2rem;
     }
 
     .container-onsearch .box .btn{
@@ -1080,6 +1105,7 @@ span.swiper-pagination-bullet-active{
         text-align: center;
         justify-content: center;
         align-items: center;
+        width: 100px;
     }
 
     .copy h1{
@@ -1143,7 +1169,13 @@ span.swiper-pagination-bullet-active{
         width: 90%;
     }
 
- 
+    .electricity .ele-box .images-mech img {
+        height: 250px;
+        gap: 2rem;
+        margin-right: -30px;
+        margin-top: 30px;
+    }
+    
     
 
 }
