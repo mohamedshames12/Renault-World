@@ -972,6 +972,78 @@ span.swiper-pagination-bullet-active{
     margin-bottom: 5px;
 }
 
+.s-hero-box{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.s-hero-box .box-img img {
+    height: 400px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.s-hero-box .contant {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+
+.s-hero-box .contant h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.s-hero-box .contant span {
+    font-size: 35px;
+    color: #01303e;
+    text-decoration: underline;
+}
+
+.s-hero-box .contant h2 {
+    margin-bottom: 20px;
+}
+
+.s-hero-box .contant a {
+    width: 150px;
+    background-color: #006d77;
+    color: #fff;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.contacts {
+    text-align: center;
+    margin: 10px 0;
+    color: #2a9d8f;
+}
+
+.contact {
+    border: 1px solid #000;
+    border-radius: 5px;
+    width: max-content;
+    padding: 30px;
+    background-color: #fff;
+    text-align: center;
+    justify-content: center;
+}
+
+.contact .box-contact h1 {
+    font-size: 30px;
+    margin-bottom: 8px;
+    color: #02544b;
+}
+
+.contact .box-contact h4 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.contact .box-contact p {
+    margin-bottom: 5px;
+}
 /*  for mobile */
 @media (max-width:768px) {
     .container{
@@ -1176,6 +1248,49 @@ span.swiper-pagination-bullet-active{
         margin-top: 30px;
     }
     
+    .s-hero-box{
+        display: block;
+        text-align: center;
+        justify-content: space-between;
+    }
     
+    .s-hero-box .box-img img {
+        height: 300px;
+        border-radius: 5px;
+        object-fit: cover;
+    }
+    
+    
+.s-hero-box .contant {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    padding: 40px;
+}
+
+.s-hero-box .contant h1 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.s-hero-box .contant span {
+    font-size: 30px;
+    color: #01303e;
+    text-decoration: underline;
+}
+
+.s-hero-box .contant h2 {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.s-hero-box .contant a {
+    width: 150px;
+    background-color: #006d77;
+    color: #fff;
+    padding: 7px;
+    border-radius: 5px;
+}
 
 }
